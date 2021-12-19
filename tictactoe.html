@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tic Tac Toe</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body onload="startTimer();">
+
+<h1> Boter, kaas en eieren spel. </h1>
+
+<div id="timer">
+ <b>[<span id="time"></span></b>]
+</div>
+<div id="score">
+  <b>[<span id="score"></span></b>]
+</div>
+
+<div id="startscherm" class="startscherm">
+  <p> Probeer als eerste 3 op een rij te krijgen! Succes!</p><br>
+    <button onClick="startGame()">Start game!</button> </div>
+     <br>
+     <table>
+      <tr>
+        <td class="cell" id="0"></td>
+        <td class="cell" id="1"></td>
+        <td class="cell" id="2"></td>
+      </tr>
+      <tr>
+        <td class="cell" id="3"></td>
+        <td class="cell" id="4"></td>
+        <td class="cell" id="5"></td>
+      </tr>
+      <tr>
+        <td class="cell" id="6"></td>
+        <td class="cell" id="7"></td>
+        <td class="cell" id="8"></td>
+      </tr>
+    </table>
+
+<div id="speelveld" class="speelveld" >
+    <button onClick="startGame()">Speel opnieuw</button>
+</div>
+
+<div id="eindscherm" class="eindscherm">
+ <p> Bedankt voor het spelen</p><br>
+</div>
+
+<div class="endgame">
+		<div class="text"></div>
+</div>
+
+<script src="script.js"></script>
+  <div class="afbeelding">
+    <img src="boterkaaseieren.jpg">
+  </div>
+
+<div class="footer">
+  <footer> © 2020 Boter, kaas en eieren</footer>
+</div>
+</body>
+</html>
